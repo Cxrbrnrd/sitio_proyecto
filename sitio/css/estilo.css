@@ -11,7 +11,7 @@
 
 header{ 
     max-width: 1000%;
-    min-height: 300px;
+    min-height: 480px;
     background:;
     margin: 0 auto;
     font-family: 'Schoolbell', cursive;
@@ -209,7 +209,7 @@ footer{
 .logo_foot{
     width: 20%;
     float:left;
-    padding-left: 30px;
+   
     padding-top: 20px;
 }
 
