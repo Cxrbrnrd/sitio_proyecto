@@ -1,12 +1,73 @@
 @import
-    'https://fonts.googleapis.com/css?family=Schoolbell';
+    'https://fonts.googleapis.com/css?family=Boogaloo|Cherry+Cream+Soda';
+
+   
     
 /* RESET*/
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
+}
+
+header{
+    background:#DC7633;
+}
+.logotipo{
+    padding: 30px;
+}
+.logotipo img{ max-height: 80px;}
+
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    background: #C2CDD8;
+}
+
+
+/* MEDIA QUERIE : TABLET */
+@media (min-width:721px) and (max-width:1199px){
+   header{
+    background: #DC7633;
+  }
+  .menu{
+    background: #DC7633;
+  }
+}
+
+/* MEDIA QUERIE : MOVIL */
+@media (max-width:720px){
+  header{
+    background: #DC7633;
+  }
+    .menu a{
+        background: #DC7633;
+        border: 2px solid #aaa;
+    }
+    .menu a .fa{
+        display: block;
+        font-size: 1.5em;
+        margin: 4px;
+    }
+}
+
+
+section.contenido{
+  min-height: 500px;
+  background-image: url(../img/pontetrucha.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: #BFDCE5;
+
 }
 
 header{ 
@@ -14,7 +75,7 @@ header{
     min-height: 200px;
     background:;
     margin: 0 auto;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
     font-size: 1.5em;
 }
 
@@ -23,7 +84,7 @@ body{
     max-width: 1000%;
     min-height: 300px;
     padding: 50px;
-    background-image: linear-gradient(#fff,#2FA0B9);
+    background-image: linear-gradient(#fff,#C2CDD8);
 }
 
 .etiqueta{
@@ -31,7 +92,8 @@ body{
     background: #2FA0B9;
     width: 500px;
     color:#fff;
-    font-size: 1.4em;
+    font-size: 1em;
+    font-family: 'Cherry Cream Soda', cursive;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -76,6 +138,8 @@ ul.container{
     
 }
 
+
+
 header ul{
   list-style: none;
 }
@@ -99,6 +163,12 @@ ul.container li img{
   max-width: 100%;
   width: 60%;
 }
+
+article.extremo{
+width: 29%;
+}
+
+
     
 /*----- SECTION -----*/
 
@@ -133,10 +203,12 @@ container fluid{
   box-shadow: -1px -1px 10px #000000;
 }
 
+
+
 .tortugaimg{
  background-image: url(../img/tortuga.jpg);
- font-family: 'Schoolbell', cursive;
- font-size: 1em;
+ font-family: 'Cherry Cream Soda', cursive;
+ font-size:1em;
  text-align: left;
  right: 10px;
  top: 10px;
@@ -145,7 +217,7 @@ container fluid{
 
 .familiaimg{
     background-image: url(../img/familia.jpg);
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
     font-size: 1em;
     text-align: left;
     right: 10px;
@@ -155,9 +227,19 @@ container fluid{
 
 .reciclaimg{
     background-image: url(../img/recicla.jpg);
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
     font-size: 1em;
     text-align: left;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.tortugasubimg{
+    background-image: url(../img/tortugasub.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
     right: 10px;
     top: 10px;
     padding: 10px;
@@ -169,7 +251,7 @@ h3{
     text-align: center;
     background: #2FA0B9;
     height: 30px;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
     font-size: 1.5em;
     margin: 5px;
 }
@@ -192,8 +274,12 @@ section{
 a{
     text-decoration: none;
     color: white;
-
+    
 }
+
+
+
+
 
 .fa{
     color: white;
@@ -203,6 +289,11 @@ footer{
     width: 100%;
     background: #DC7633;
     height: 170px;
+}
+
+@media(max-width: 720px){
+    .container{width: 100%;
+    }
 }
 
 .logo_foot{
@@ -221,7 +312,7 @@ div.contacto{
     width: 20%;
     float: left;
     font-size: 0.9em;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
 }
 
 div.contacto p{
@@ -252,7 +343,7 @@ ul.lista{
     padding-top: 5%;
     width: 50%;
     float: left;
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Cherry Cream Soda', cursive;
 
 }
 
