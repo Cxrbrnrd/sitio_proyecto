@@ -12,6 +12,7 @@
 
 header{
     background:#DC7633;
+    
 }
 .logotipo{
     padding: 30px;
@@ -132,10 +133,7 @@ h1 img{
 
 ul.container{
   text-align: center;
-  position:; 
-  top: 0px;
-  width: 50%;
-    
+   
 }
 
 
@@ -401,15 +399,12 @@ footer{
 }
 
 @media(max-width: 720px){
-    .container{width: 100%;
-    }
+
 }
 
 .logo_foot{
-    width: 20%;
-    float:left;
-    padding-left: 30px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .logo_foot img{
@@ -418,8 +413,6 @@ footer{
 }
 
 div.contacto{
-    width: 20%;
-    float: left;
     font-size: 0.9em;
     font-family: 'Cherry Cream Soda', cursive;
 }
@@ -431,8 +424,6 @@ div.contacto p{
 }
 
 ul.redes{
-    width: 50%;
-    float: left;
     padding-top: 5%;
 
 }
@@ -450,8 +441,6 @@ ul.lista{
     text-align: center;
     list-style: none;
     padding-top: 5%;
-    width: 50%;
-    float: left;
     font-family: 'Cherry Cream Soda', cursive;
 
 }
@@ -461,10 +450,8 @@ ul.lista li{
 }
 
 .iconos{
-    width: 20%;
-    float: left;
-    padding-left: 50px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .iconos img{
