@@ -1,73 +1,12 @@
 @import
-    'https://fonts.googleapis.com/css?family=Boogaloo|Cherry+Cream+Soda';
-
-   
+    'https://fonts.googleapis.com/css?family=Schoolbell';
     
 /* RESET*/
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-}
-
-header{
-    background:#DC7633;
-}
-.logotipo{
-    padding: 30px;
-}
-.logotipo img{ max-height: 80px;}
-
-.menu ul{
-    list-style: none;
-}
-.menu a{
-    display: block;
-    color:#fff;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-}
-.menu a:hover{
-    background: #C2CDD8;
-}
-
-
-/* MEDIA QUERIE : TABLET */
-@media (min-width:721px) and (max-width:1199px){
-   header{
-    background: #DC7633;
-  }
-  .menu{
-    background: #DC7633;
-  }
-}
-
-/* MEDIA QUERIE : MOVIL */
-@media (max-width:720px){
-  header{
-    background: #DC7633;
-  }
-    .menu a{
-        background: #DC7633;
-        border: 2px solid #aaa;
-    }
-    .menu a .fa{
-        display: block;
-        font-size: 1.5em;
-        margin: 4px;
-    }
-}
-
-
-section.contenido{
-  min-height: 500px;
-  background-image: url(../img/pontetrucha.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position:center;
-  background-color: #BFDCE5;
-
+    
 }
 
 header{ 
@@ -75,7 +14,7 @@ header{
     min-height: 480px;
     background:;
     margin: 0 auto;
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
     font-size: 1.5em;
 }
 
@@ -84,12 +23,8 @@ body{
     max-width: 1000%;
     min-height: 480px;
     padding: 50px;
-<<<<<<< HEAD
     
     background-image: linear-gradient(#fff,#2FA0B9);
-=======
-    background-image: linear-gradient(#fff,#C2CDD8);
->>>>>>> origin/gh-pages
 }
 
 .etiqueta{
@@ -97,8 +32,7 @@ body{
     background: #DC7633;
     width: 500px;
     color:#fff;
-    font-size: 1em;
-    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 1.4em;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -143,8 +77,6 @@ ul.container{
     
 }
 
-
-
 header ul{
   list-style: none;
 }
@@ -168,12 +100,6 @@ ul.container li img{
   max-width: 100%;
   width: 60%;
 }
-
-article.extremo{
-width: 29%;
-}
-
-
     
 /*----- SECTION -----*/
 
@@ -208,12 +134,10 @@ container fluid{
   box-shadow: -1px -1px 10px #000000;
 }
 
-
-
 .tortugaimg{
  background-image: url(../img/tortuga.jpg);
- font-family: 'Cherry Cream Soda', cursive;
- font-size:1em;
+ font-family: 'Schoolbell', cursive;
+ font-size: 1em;
  text-align: left;
  right: 10px;
  top: 10px;
@@ -222,7 +146,7 @@ container fluid{
 
 .familiaimg{
     background-image: url(../img/familia.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
     font-size: 1em;
     text-align: left;
     right: 10px;
@@ -232,7 +156,7 @@ container fluid{
 
 .reciclaimg{
     background-image: url(../img/recicla.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
     font-size: 1em;
     text-align: left;
     right: 10px;
@@ -240,132 +164,13 @@ container fluid{
     padding: 10px;
 }
 
-.tortugasubimg{
-    background-image: url(../img/tortugasub.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.focaimg{
-    background-image: url(../img/foca.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.llantasimg{
-    background-image: url(../img/llantas.jpeg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-.residuosimg{
-    background-image: url(../img/residuos.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.lanchaimg{
-    background-image: url(../img/lancha.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.niñonadandoimg{
-    background-image: url(../img/ni%C3%B1onadando.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.botesimg{
-    background-image: url(../img/botes.JPG);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.recolectaimg{
-    background-image: url(../img/recolecta.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.pescadoresimg{
-    background-image: url(../img/pescadores.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.hombresimg{
-    background-image: url(../img/hombres.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.boteamarilloimg{
-    background-image: url(../img/boteamarillo.JPG);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-
-.casaimg{
-    background-image: url(../img/casa.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
 
 h3{
     color: white;
     text-align: center;
     background: #2FA0B9;
     height: 30px;
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
     font-size: 1.5em;
     margin: 5px;
 }
@@ -388,12 +193,8 @@ section{
 a{
     text-decoration: none;
     color: white;
-    
+
 }
-
-
-
-
 
 .fa{
     color: white;
@@ -405,13 +206,6 @@ footer{
     height: 170px;
 }
 
-<<<<<<< HEAD
-=======
-@media(max-width: 720px){
-    .container{width: 100%;
-    }
-}
->>>>>>> origin/gh-pages
 
 .logo_foot{
     width: 20%;
@@ -429,7 +223,7 @@ div.contacto{
     width: 20%;
     float: left;
     font-size: 0.9em;
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
 }
 
 div.contacto p{
@@ -460,7 +254,7 @@ ul.lista{
     padding-top: 5%;
     width: 50%;
     float: left;
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Schoolbell', cursive;
 
 }
 
