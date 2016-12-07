@@ -245,6 +245,115 @@ container fluid{
     padding: 10px;
 }
 
+.focaimg{
+    background-image: url(../img/foca.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.llantasimg{
+    background-image: url(../img/llantas.jpeg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+.residuosimg{
+    background-image: url(../img/residuos.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.lanchaimg{
+    background-image: url(../img/lancha.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.niñonadandoimg{
+    background-image: url(../img/ni%C3%B1onadando.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.botesimg{
+    background-image: url(../img/botes.JPG);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.recolectaimg{
+    background-image: url(../img/recolecta.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.pescadoresimg{
+    background-image: url(../img/pescadores.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.hombresimg{
+    background-image: url(../img/hombres.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+.boteamarilloimg{
+    background-image: url(../img/boteamarillo.JPG);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
+
+
+.casaimg{
+    background-image: url(../img/casa.jpg);
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: .8em;
+    text-align:justify;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+}
 
 h3{
     color: white;
