@@ -86,7 +86,7 @@ header{
 section.contenido{
   min-height: 500px;
   background-image: url(../img/portada.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
   background-color: #D6E1EB;
