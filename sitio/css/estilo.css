@@ -9,91 +9,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-header{
-    background:#DC7633;
-    
-}
-.logotipo{
-    padding: 30px;
-}
-.logotipo img{ max-height: 80px;}
-
-.menu ul{
-    list-style: none;
-}
-.menu a{
-    display: block;
-    color:#fff;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-}
-.menu a:hover{
-    background: #C2CDD8;
-}
-
-
-/* MEDIA QUERIE : TABLET */
-@media (min-width:721px) and (max-width:1199px){
-   header{
-    background: #DC7633;
-  }
-  .menu{
-    background: #DC7633;
-  }
-}
-
-/* MEDIA QUERIE : MOVIL */
-@media (max-width:720px){
-  header{
-    background: #DC7633;
-  }
-    .menu a{
-        background: #DC7633;
-        border: 2px solid #aaa;
-    }
-    .menu a .fa{
-        display: block;
-        font-size: 1.5em;
-        margin: 4px;
-    }
-}
-
-
-section.contenido{
-  min-height: 500px;
-  background-image: url(../img/pontetrucha.png);
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position:center;
-  background-color: #BFDCE5;
-
-}
-
-header{ 
-    max-width: 1000%;
-    min-height: 200px;
-    background:;
-    margin: 0 auto;
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: 1.5em;
-}
-
-body{
-    
-    max-width: 1000%;
-    min-height: 300px;
-    padding: 50px;
-    background-image: linear-gradient(#fff,#C2CDD8);
-}
-
 .etiqueta{
     display: block;
-    background: #2FA0B9;
+    background: #DC7633;
     width: 500px;
     color:#fff;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Cherry Cream Soda', cursive;
     padding: 10px;
     text-align: center;
@@ -107,6 +28,88 @@ body{
 .etiqueta hover{
     background: #fff;
     color: #aa0000;
+}
+
+header{
+    background:#D6E1EB;
+    height: auto;
+    
+    
+}
+.logotipo{
+    padding: 30px;
+}
+.logotipo img{ max-height: 80px;}
+
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    display: block;
+    color:#DC7633;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    background: #2FA0B9;
+}
+
+
+/* MEDIA QUERIE : TABLET */
+@media (min-width:721px) and (max-width:1199px){
+   header{
+    background: #D6E1EB;
+  }
+  .menu{
+    background: #D6E1EB;
+  }
+}
+
+/* MEDIA QUERIE : MOVIL */
+@media (max-width:720px){
+  header{
+    background: #D6E1EB;
+  }
+    .menu a{
+        background: #D6E1EB;
+        border: 2px solid #aaa;
+    }
+    .menu a .fa{
+        display: block;
+        font-size: 1.5em;
+        margin: 2px;
+    }
+}
+
+
+section.contenido{
+  min-height: 500px;
+  background-image: url(../img/portada.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: #D6E1EB;
+   
+  
+
+}
+
+header{ 
+    max-width: 1000%;
+    min-height: 200px;
+    background:;
+    margin: 0 auto;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 1.2em;
+}
+
+body{
+    
+    max-width: 1000%;
+    min-height: 300px;
+    padding: 50px;
+    background-image: linear-gradient(#fff,#C2CDD8);
 }
 
 header ul{
@@ -169,6 +172,15 @@ container fluid{
  height: 480px;
 }
 
+.modulo{
+  background:#2FA0B9;
+  padding: 20px;
+  border-top: 4px solid #dd8800; 
+  margin-top: 20px;
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 1em;
+}
+
 .temasPrincipales .bg{
  width: 100%;
  height: 400px;
@@ -195,8 +207,9 @@ container fluid{
   top: 0;
   box-shadow: -1px -1px 10px #000000;
 }
-.tortugaimg{
- background-image: url(../img/tortuga.jpg);
+.dibujoimg{
+ background-image: url(../img/dibujo.png);
+ background-size: contain;
  font-family: 'Cherry Cream Soda', cursive;
  font-size:1em;
  text-align: left;
@@ -205,8 +218,8 @@ container fluid{
  padding: 10px;
 }
 
-.familiaimg{
-    background-image: url(../img/familia.jpg);
+.dibujo2img{
+    background-image: url(../img/dibujo2.png);
     font-family: 'Cherry Cream Soda', cursive;
     font-size: 1em;
     text-align: left;
@@ -216,7 +229,7 @@ container fluid{
 }
 
 .reciclaimg{
-    background-image: url(../img/recicla.jpg);
+    background-image: url(../img/recicla.png);
     font-family: 'Cherry Cream Soda', cursive;
     font-size: 1em;
     text-align: left;
@@ -225,133 +238,15 @@ container fluid{
     padding: 10px;
 }
 
-.tortugasubimg{
-    background-image: url(../img/tortugasub.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
 
-.focaimg{
-    background-image: url(../img/foca.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.llantasimg{
-    background-image: url(../img/llantas.jpeg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-.residuosimg{
-    background-image: url(../img/residuos.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.lanchaimg{
-    background-image: url(../img/lancha.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.niñonadandoimg{
-    background-image: url(../img/ni%C3%B1onadando.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.botesimg{
-    background-image: url(../img/botes.JPG);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.recolectaimg{
-    background-image: url(../img/recolecta.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.pescadoresimg{
-    background-image: url(../img/pescadores.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.hombresimg{
-    background-image: url(../img/hombres.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-.boteamarilloimg{
-    background-image: url(../img/boteamarillo.JPG);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
-
-
-.casaimg{
-    background-image: url(../img/casa.jpg);
-    font-family: 'Cherry Cream Soda', cursive;
-    font-size: .8em;
-    text-align:justify;
-    right: 10px;
-    top: 10px;
-    padding: 10px;
-}
 
 h3{
     color: white;
     text-align: center;
-    background: #2FA0B9;
+    background: #DC7633;
     height: 30px;
     font-family: 'Cherry Cream Soda', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 5px;
 }
 
@@ -363,7 +258,7 @@ galeria{
 }
 
 section{
-  background: #DC7633;
+  background: #2FA0B9;
   margin-top: 20px;
   padding: 20px 0;
 }
