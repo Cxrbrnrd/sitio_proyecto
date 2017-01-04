@@ -275,7 +275,6 @@ a{
 footer{
     width: 100%;
     background: #DC7633;
-    height: 170px;
 }
 
 @media(max-width: 720px){
@@ -283,13 +282,14 @@ footer{
 }
 
 .logo_foot{
-    padding-top: 20px;
+    padding:20px 80px;
     text-align: center;
 }
 
 .logo_foot img{
     width: 100px;
     padding:10px;
+    
 }
 
 div.contacto{
@@ -301,10 +301,11 @@ div.contacto p{
     width: 80%;
     padding:40px;
     color: white;
+    text-align: center;
 }
 
 ul.redes{
-    padding-top: 5%;
+    padding:20px 80px;
 
 }
 nav.foot{
@@ -320,7 +321,6 @@ ul.redes li{
 ul.lista{
     text-align: center;
     list-style: none;
-    padding-top: 5%;
     font-family: 'Cherry Cream Soda', cursive;}
 
 ul.lista li{
@@ -328,7 +328,7 @@ ul.lista li{
 }
 
 .iconos{
-    padding-top: 50px;
+    padding:20px 80px;
     text-align: center;
 }
 
