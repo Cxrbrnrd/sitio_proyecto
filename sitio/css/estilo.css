@@ -1,5 +1,7 @@
 @import
     'https://fonts.googleapis.com/css?family=Boogaloo|Cherry+Cream+Soda';
+    
+
 
    
     
@@ -177,8 +179,9 @@ container fluid{
   padding: 20px;
   border-top: 4px solid #dd8800; 
   margin-top: 20px;
-  font-family: 'Cherry Cream Soda', cursive;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1em;
+    color: azure;
 }
 
 .temasPrincipales .bg{
@@ -186,6 +189,7 @@ container fluid{
  height: 400px;
  background-repeat: none;
  background-size: cover;
+ 
 }
 
 .caja{
@@ -201,6 +205,7 @@ container fluid{
   color:#fff;
   padding: 10px;
   width: 140px;
+  font-family: 'Cherry Cream Soda', cursive;
   text-align: center;
   position: absolute;
   right: 0;
@@ -210,7 +215,7 @@ container fluid{
 .dibujoimg{
  background-image: url(../img/dibujo.png);
  background-size: contain;
- font-family: 'Cherry Cream Soda', cursive;
+ font-family: 'Roboto Mono', monospace;
  font-size:1em;
  text-align: left;
  right: 10px;
@@ -220,7 +225,7 @@ container fluid{
 
 .dibujo2img{
     background-image: url(../img/dibujo2.png);
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1em;
     text-align: left;
     right: 10px;
@@ -230,7 +235,7 @@ container fluid{
 
 .reciclaimg{
     background-image: url(../img/recicla.png);
-    font-family: 'Cherry Cream Soda', cursive;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1em;
     text-align: left;
     right: 10px;
@@ -282,8 +287,7 @@ footer{
 }
 
 .logo_foot{
-    padding:20px 80px;
-    padding:20px 80px;
+    padding:20px 40px;
     text-align: center;
 }
 
@@ -306,7 +310,7 @@ div.contacto p{
 }
 
 ul.redes{
-    padding:20px 80px;
+    padding:20px 40px;
 
 }
 nav.foot{
@@ -329,7 +333,7 @@ ul.lista li{
 }
 
 .iconos{
-    padding:20px 80px;
+    padding:20px 50px;
     text-align: center;
 }
 
